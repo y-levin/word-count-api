@@ -1,6 +1,7 @@
 # word-count-api
 Usage:
-run WordsCountAPI.py (Min. Python 3.7)
+- run pip install -r requirements.txt
+- run WordsCountAPI.py (Min. Python 3.7)
 
 1 - get words count from text:
 - Using get request - add to the url argument txt= <the_text>
