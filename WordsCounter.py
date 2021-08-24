@@ -36,13 +36,3 @@ def count_words_in_url(url):
     response = urllib.request.urlopen(url)
     txt = response.read().decode(response.headers.get_content_charset())
     return count_words_in_text(txt)
-
-# words = count_words_in_text("")
-# count_words_in_text("hello world", words)
-# print('hello w'.rfind(' '))
-# print('hello w'[:5])
-# print('hello w'[6:])
-# print(words)
-# print(count_words_in_file('alice29.txt'))
-# print(count_words_in_url(
-#     'https://gist.githubusercontent.com/phillipj/4944029/raw/75ba2243dd5ec2875f629bf5d79f6c1e4b5a8b46/alice_in_wonderland.txt'))
