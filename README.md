@@ -16,14 +16,14 @@ curl -X POST \
 ```
 2 - get words count from file:
 - Using get request - add to the url argument file= <the_file path in the server>
-- current oriject has the file alice29.txt
+- current project has the file alice29.txt
 ```
 http://127.0.0.1:8000/word_counter?file=alice29.txt
 ```
 3 - get words count from url:
 - Using get request - add to the url argument url= <the_url to read>
 ```
-http://127.0.0.1:8000/word_counter?url=https://gist.githubusercontent.com/phillipj/4944029/raw/75ba2243dd5ec2875f629bf5d79f6c1e4b5a8b46/alice_in_wonderland.txt
+http://127.0.0.1:8000/word_counter?url=https://raw.githubusercontent.com/y-levin/word-count-api/main/alice29.txt
 ```
 
 3 - get words statistics:
